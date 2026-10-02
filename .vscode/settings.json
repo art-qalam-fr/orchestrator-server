@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.llm-context": true,
+    "**/.trae": true,
+    "**/logs": true
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
