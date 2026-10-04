@@ -1,5 +1,5 @@
 # Use the official Node.js 18 LTS image for the build environment
-FROM node:18-alpine AS builder
+FROM node:26-alpine AS builder
 
 # Set the working directory in the container
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Use a smaller Node.js image for the runtime environment
-FROM node:18-alpine AS release
+FROM node:26-alpine AS release
 
 # Set the working directory in the container
 WORKDIR /app
