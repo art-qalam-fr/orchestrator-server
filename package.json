@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.0.0",
-    "tsc-watch": "^6.0.0",
+    "tsc-watch": "^7.2.1",
     "rimraf": "^5.0.0"
   },
   "engines": {
